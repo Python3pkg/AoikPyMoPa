@@ -57,7 +57,7 @@ def main():
     #/ 9uEiknz
     except ImportError:
         #/ 7mh7zq8
-        print(('Module |%s| can not be imported.' % (mod_name,)))
+        print('Module |%s| can not be imported.' % (mod_name,))
         
         #/ 2u8X5uS
         return
@@ -65,8 +65,8 @@ def main():
     #/ 8chsA3e
     except Exception:
         #/ 3hxMp7X
-        print(('Module |%s| has had errors when being imported:' % (mod_name,)))
-        print(('---\n%s---' % (get_traceback_txt(),)))
+        print('Module |%s| has had errors when being imported:' % (mod_name,))
+        print('---\n%s---' % (get_traceback_txt(),))
         
         #/ 8uesUe7
         return
@@ -77,7 +77,7 @@ def main():
     #/ 9mF0Bon
     if file_attr:
         #/ 5cx96oq
-        print((module_obj.__file__))
+        print(module_obj.__file__)
         
         #/ 5sD72KR
         return
@@ -129,7 +129,7 @@ def main():
     #else: 5kyPX75
         
     #/ 5kyPX75
-    print(("Module |%s| seems to have no file. Is it a built-in?" % (mod_name,)))
+    print("Module |%s| seems to have no file. Is it a built-in?" % (mod_name,))
     
     #/ 7c8lYAJ
     return
